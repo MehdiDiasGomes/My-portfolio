@@ -1,5 +1,6 @@
 <template>
     <div class="flex flex-col gap-5 w-full">
+        <h2 class="text-white text-h2">Looking for a <span class="text-[#E5484D] font-extrabold">passionate developer?</span> Feel free to get in touch!</h2>
         <div class="flex sm:flex-row max-sm:flex-col items-center gap-5">
             <input type="text" placeholder="Your name"
                 class="w-full h-12 p-3 border text-white border-[#E5484D] bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]">
@@ -7,7 +8,7 @@
                 class="w-full h-12 p-3 border text-white border-[#E5484D] bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]">
         </div>
         <div>
-            <input type="text" placeholder="your@mail.com"
+            <input type="email" placeholder="your@mail.com"
                 class="w-full h-12 p-3 border text-white border-[#E5484D] bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]">
         </div>
         <div>
