@@ -8,7 +8,7 @@
                 <ul
                     class="flex flex-wrap items-center gap-4 text-white mb-6 text-sm font-medium">
                     <li>
-                        <RouterLink class="hover:text-[#E5484D] duration-200" to="/home">Home</RouterLink>
+                        <RouterLink class="hover:text-[#E5484D] duration-200" to="/">Home</RouterLink>
                     </li>
                     <li>
                         <RouterLink class="hover:text-[#E5484D] duration-200" to="/tools">Tools</RouterLink>
