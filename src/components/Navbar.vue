@@ -5,7 +5,7 @@
         </div>
         <div class="flex gap-4 items-center">
             <RouterLink class="hover:text-[#E5484D] duration-200" to="/">Home</RouterLink>
-            <RouterLink class="hover:text-[#E5484D] duration-200" to="/projects">Tools</RouterLink>
+            <RouterLink class="hover:text-[#E5484D] duration-200" to="/tools">Tools</RouterLink>
             <RouterLink class="hover:text-[#E5484D] duration-200" to="/hire">Hire me</RouterLink>
         </div>
     </nav>
