@@ -1,14 +1,13 @@
 <template>
-  <div class="flex flex-col justify-center items-center">
-    <div class="md:1/2 sm:w-[80%] h-screen">
+  <div class="m-auto py-10 lg:py-14 px-4 max-w-3xl w-full relative">
+    <div class="flex flex-col gap-20">
       <Navbar />
-      <home />
+      <RouterView />
     </div>
   </div>
-  
 </template>
 
-<script setup lang="ts">
-import home from './pages/home.vue';
-import Navbar from './components/Navbar.vue';
+<script setup>
+import Navbar from './components/navbar.vue';
+import Home from './pages/home.vue';
 </script>
