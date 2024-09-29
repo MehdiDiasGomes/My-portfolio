@@ -13,9 +13,5 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
-import { SquareMenu } from 'lucide-vue-next';
-import { Github } from 'lucide-vue-next';
-import { Linkedin } from 'lucide-vue-next';
 
 </script>
