@@ -4,17 +4,17 @@
                 developer?</span> Feel free to get in touch!</h2>
         <div class="flex sm:flex-row max-sm:flex-col items-center gap-5">
             <input v-model="name" type="text" placeholder="Your name" name="name"
-                class="w-full uppercase h-12 p-3 border text-white border-[#E5484D] bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]">
+                class="w-full uppercase h-12 p-3 border text-white border-gray-400 bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]">
             <input v-model="firstname" type="text" placeholder="Your first name" name="firstname"
-                class="w-full h-12 p-3 border text-white border-[#E5484D] bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]">
+                class="w-full h-12 p-3 border text-white border-gray-400 bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]">
         </div>
         <div>
             <input v-model="email" type="email" placeholder="your@mail.com" name="email"
-                class="w-full h-12 p-3 border text-white border-[#E5484D] bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]">
+                class="w-full h-12 p-3 border text-white border-gray-400 bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]">
         </div>
         <div>
             <textarea v-model="textarea" name="textarea" id="textarea" placeholder="Your message"
-                class="resize-y w-full h-48 p-3 border text-white border-[#E5484D] bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]"></textarea>
+                class="resize-y w-full h-48 p-3 border text-white border-gray-400 bg-[#1E1E1E] rounded-xl focus:outline-none focus:border-[#E5484D] focus:ring-2 focus:ring-[#E5484D]"></textarea>
         </div>
         <button type="submit"
             class="relative group overflow-hidden bg-[#1E1E1E] text-white font-bold py-2 px-6 rounded-xl border border-[#E5484D] transition duration-500 ease-in-out focus:outline-none">
