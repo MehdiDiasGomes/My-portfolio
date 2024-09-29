@@ -1,5 +1,5 @@
 <template>
-    <nav class="text-white flex justify-between mt-10">
+    <nav class="text-white flex justify-between">
         <div>
             <img src="../../public/img/Logo.png" alt="Logo" class="h-8 w-8" />
         </div>
