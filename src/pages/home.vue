@@ -2,7 +2,7 @@
     <div class="flex justify-start items-start">
         <div class="flex flex-col gap-5">
             <div class="flex gap-3 items-center">
-                <img src="../../public/img/Mehdi-profil.jpeg" class="w-12 h-12 object-cover rounded-full"
+                <img src="/img/Mehdi-profil.jpeg" class="w-12 h-12 object-cover rounded-full"
                     alt="Photo de profil Mehdi">
                 <h1 class="text-h1 text-white">Mehdi DIAS GOMES</h1>
             </div>

@@ -5,7 +5,7 @@
                 <a target="_blank"
                     class="flex w-full duration-200 hover:border-[#E5484D] p-3 border border-gray-500 rounded-xl text-white items-center gap-3"
                     :href="t.link">
-                    <img class="w-8" :src="`../../public/img/tools/${t.img}.png`"
+                    <img class="w-8" :src="`/img/tools/${t.img}.png`"
                         :alt="`Image ${t.name}`">
                     <span class="flex flex-col">
                         {{ t.name }}
