@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/app.vue","./src/components/footer.vue","./src/components/navbar.vue","./src/components/skillscards.vue","./src/components/socialcards.vue","./src/components/toolscards.vue","./src/pages/hire.vue","./src/pages/home.vue","./src/pages/notfound.vue","./src/pages/skills.vue","./src/pages/tools.vue"],"version":"5.6.2"}
