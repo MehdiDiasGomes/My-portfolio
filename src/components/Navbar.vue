@@ -1,5 +1,5 @@
 <template>
-    <nav class="text-white flex justify-between mt-10">
+    <nav class="text-white flex justify-between">
         <div>
             <img src="../../public/img/Logo.png" alt="Logo" class="h-8 w-8" />
         </div>
@@ -13,9 +13,5 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
-import { SquareMenu } from 'lucide-vue-next';
-import { Github } from 'lucide-vue-next';
-import { Linkedin } from 'lucide-vue-next';
 
 </script>
