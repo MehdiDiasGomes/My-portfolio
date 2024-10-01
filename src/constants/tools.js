@@ -31,7 +31,7 @@ const tools = [
     },
     {
         name: "GitHub",
-        img: 'GitHub',
+        img: 'Github',
         type: "Version Control",
         link: 'https://github.com/'
     },
