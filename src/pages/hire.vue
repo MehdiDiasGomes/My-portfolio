@@ -20,7 +20,7 @@
             class="relative group overflow-hidden bg-[#1E1E1E] text-white font-bold py-2 px-6 rounded-xl border border-[#E5484D] transition duration-500 ease-in-out focus:outline-none">
             <span class="relative z-10">Send message</span>
             <div
-                class="absolute inset-0 bg-[#E5484D] w-full h-full transform translate-x-[-100%] group-hover:translate-x-0 transition duration-500 ease-in-out">
+                class="absolute inset-0 bg-[#E5484D] w-full h-full transform translate-y-[-100%] group-hover:translate-y-0 transition duration-500 ease-in-out">
             </div>
         </button>
     </form>

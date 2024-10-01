@@ -7,9 +7,7 @@
                 <h1 class="text-h1 text-white">Mehdi DIAS GOMES</h1>
             </div>
             <div>
-                <h3 ref="typewriterEl" class="text-h3 text-gray-300">
-                    Développeur <span class="font-extrabold text-[#E5484D]">web</span> full-stack
-                </h3>
+                <h3 ref="typewriterEl" class="text-h3 text-gray-300" </h3>
             </div>
             <div>
                 <socialCards />
@@ -35,7 +33,7 @@ onMounted(() => {
     });
 
     typewriter
-        .typeString('Développeur <span class="font-extrabold text-[#E5484D]">web</span> full-stack') 
+        .typeString('Fullstack <span class="font-extrabold text-[#E5484D]">web</span> developer')
         .start();
 });
 </script>
