@@ -1,5 +1,4 @@
 <template>
-    <Toaster richColors position="bottom-right" />
     <form ref="form" @submit.prevent="sendEmail" class="flex flex-col gap-14 w-full">
         <h2 class="text-white text-h2">Looking for a <span class="text-[#E5484D] font-extrabold">passionate
                 developer?</span> Feel free to get in touch!</h2>
@@ -26,6 +25,7 @@
                 </div>
             </button>
         </div>
+        <Toaster richColors position="bottom-right" />
     </form>
 </template>
 
