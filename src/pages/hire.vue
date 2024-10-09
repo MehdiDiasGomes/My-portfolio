@@ -1,7 +1,11 @@
 <template>
     <form ref="form" @submit.prevent="sendEmail" class="flex flex-col gap-14 w-full">
-        <h2 class="text-white text-h2">Looking for a <span class="text-[#E5484D] font-extrabold">passionate
-                developer?</span> Feel free to get in touch!</h2>
+        <div class="flex flex-col gap-2">
+            <h2 class="text-white text-h2">Looking for a <span class="text-[#E5484D] font-extrabold">passionate
+                    developer? 📱</span>
+            </h2>
+            <h3 class="text-h3 text-gray-300">Feel free to get in touch!</h3>
+        </div>
         <div class="flex flex-col gap-5">
             <div class="flex sm:flex-row max-sm:flex-col items-center gap-5">
                 <input v-model="name" type="text" placeholder="Your name" name="name"
